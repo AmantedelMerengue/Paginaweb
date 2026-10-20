@@ -92,10 +92,6 @@ nav a:hover {
     padding: 40px;
 
     background-image:
-        linear-gradient(
-            rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)
-        ),
         url("apuesta.jfif");
 
     background-size: cover;
