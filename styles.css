@@ -146,9 +146,9 @@ nav a:hover {
 ========================= */
 
 button {
-    background-color: #0077cc;
+    background-color: black;
     color: white;
-
+   
     border: none;
 
     padding: 12px 20px;
@@ -161,7 +161,7 @@ button {
 }
 
 button:hover {
-    background-color: #005fa3;
+    background-color: green;
 }
 
 
@@ -213,7 +213,12 @@ button:hover {
 
     gap: 20px;
 }
-
+.galeria p {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+}
 .galeria img {
     
     width: 100%;
