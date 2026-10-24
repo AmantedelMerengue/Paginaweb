@@ -76,13 +76,16 @@ nav {
     gap: 25px;
 }
 
-nav .bot {
+nav a{
     color: white;
     text-decoration: none;
 }
 
-nav .bot:hover {
-    color: #00aaff;
+nav .botr:hover{
+    color: red;
+}
+nav .botg:hover{
+    color: darkgreen;
 }
 
 
