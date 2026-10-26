@@ -39,7 +39,7 @@ nav {
     gap: 25px;
 }
 
-nav a {
+nav button {
         background-color: white;
     color: black;
 
@@ -60,7 +60,7 @@ nav a {
     transition-duration: 0.4s;
 }
 
-nav a:hover {
+nav button:hover {
    background-color: #2a119b;
    color: white;
 }
@@ -78,8 +78,9 @@ footer {
 .formulario-seccion {
     max-width: 700px;
     margin: 40px auto;
-    padding: 25px;
+    padding: 100px;
     border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(0,0,0);
 }
 
 .formulario-seccion h2 {

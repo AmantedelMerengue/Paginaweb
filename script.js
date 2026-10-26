@@ -4,7 +4,7 @@
 
 function mostrarMensaje() {
 
-    alert("Algo");
+    alert("Perdiste pero vuelve a intertarlo");
 
 }
 
@@ -16,7 +16,7 @@ function mostrarMensaje() {
 function mostrarServicio(servicio) {
 
     alert(
-        "Seleccionaste: " + servicio
+        "Perdiste en " + servicio + " ahora nos debes dinero"
     );
 
 }

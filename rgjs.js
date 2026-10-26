@@ -29,10 +29,6 @@ formulario.addEventListener("submit", function(evento) {
 
     const telefono = document.getElementById("telefono");
 
-    const asunto = document.getElementById("asunto");
-
-    const mensaje = document.getElementById("mensaje");
-
 
     /* =====================================
        VALIDAR NOMBRE
@@ -219,91 +215,7 @@ formulario.addEventListener("submit", function(evento) {
 
     /* =====================================
        VALIDAR ASUNTO
-    ===================================== */
-
-    if (asunto.value.trim() === "") {
-
-        mostrarError(
-            asunto,
-            "El asunto es obligatorio."
-        );
-
-        formularioValido = false;
-
-    }
-
-    else if (asunto.value.trim().length < 5) {
-
-        mostrarError(
-            asunto,
-            "El asunto debe tener mínimo 5 caracteres."
-        );
-
-        formularioValido = false;
-
-    }
-
-    else if (asunto.value.trim().length > 80) {
-
-        mostrarError(
-            asunto,
-            "El asunto no puede superar 80 caracteres."
-        );
-
-        formularioValido = false;
-
-    }
-
-    else {
-
-        marcarCorrecto(asunto);
-
-    }
-
-
-    /* =====================================
-       VALIDAR MENSAJE
-    ===================================== */
-
-    if (mensaje.value.trim() === "") {
-
-        mostrarError(
-            mensaje,
-            "El mensaje es obligatorio."
-        );
-
-        formularioValido = false;
-
-    }
-
-    else if (mensaje.value.trim().length < 10) {
-
-        mostrarError(
-            mensaje,
-            "El mensaje debe tener mínimo 10 caracteres."
-        );
-
-        formularioValido = false;
-
-    }
-
-    else if (mensaje.value.trim().length > 500) {
-
-        mostrarError(
-            mensaje,
-            "El mensaje no puede superar 500 caracteres."
-        );
-
-        formularioValido = false;
-
-    }
-
-    else {
-
-        marcarCorrecto(mensaje);
-
-    }
-
+    ===================================== 
 
     /* =====================================
        RESULTADO FINAL
