@@ -453,5 +453,8 @@ footer {
     .galeria {
         grid-template-columns: 1fr;
     }
+    .clien {
+        grid-template-columns: 1fr;
+    }
 
 }
