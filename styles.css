@@ -51,7 +51,6 @@ nav .BT:hover {
 ========================= */
 
 header {
-    background-color: none;
     color: white;
     position: fixed;
     display: flex;
@@ -63,7 +62,7 @@ header {
     z-index: 1000;
     left: 0;
     width: 100%;
-    
+
 }
 
 .logo {
@@ -92,7 +91,14 @@ nav .botg:hover{
 /* =========================
    HERO
 ========================= */
+.merengue{
+    background-image: url(Detras.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
 
+}
 .hero {
     min-height: 80vh;
 
@@ -103,13 +109,9 @@ nav .botg:hover{
     text-align: center;
 
     padding: 40px;
-
-    background-image:
-        url("Detras.jpg");
-
     background-size: cover;
     background-position: center;
-
+    height: 100vh;
     color: white;
 }
 
