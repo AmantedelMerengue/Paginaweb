@@ -51,7 +51,7 @@ nav .BT:hover {
 ========================= */
 
 header {
-    background-color: #222222;
+    background-color: none;
     color: white;
 
     display: flex;
