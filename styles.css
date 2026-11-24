@@ -84,6 +84,7 @@ nav a{
     background-size: 0% 2px;
     background-position: left bottom;
     transition: background-size 700ms ease-in-out;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav .botr:hover{
