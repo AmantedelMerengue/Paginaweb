@@ -73,6 +73,11 @@ header {
 nav {
     display: flex;
     gap: 25px;
+    background-image: linear-gradient(rgb(219, 29, 4));
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: left bottom;
+    transition: background-size 700ms ease-in-out;
 }
 
 nav a{
@@ -81,10 +86,11 @@ nav a{
 }
 
 nav .botr:hover{
-    color: red;
+    background-size: 100% 2px;
 }
 nav .botg:hover{
-    color: darkgreen;
+    background-size: 100% 2px;  
+    background-image: linear-gradient(rgb(5, 105, 27));
 }
 
 
