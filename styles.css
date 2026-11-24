@@ -73,16 +73,16 @@ header {
 nav {
     display: flex;
     gap: 25px;
-    background-image: linear-gradient(rgb(219, 29, 4));
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    background-position: left bottom;
-    transition: background-size 700ms ease-in-out;
 }
 
 nav a{
     color: white;
     text-decoration: none;
+    background-image: linear-gradient(rgb(219, 29, 4));
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: left bottom;
+    transition: background-size 700ms ease-in-out;
 }
 
 nav .botr:hover{
