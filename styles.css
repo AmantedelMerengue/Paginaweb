@@ -53,17 +53,17 @@ nav .BT:hover {
 header {
     background-color: none;
     color: white;
-
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 20px 8%;
-
+    padding: 20px;
     position: sticky;
     top: 0;
-
     z-index: 1000;
+    left: 0;
+    width: 100%;
+    
 }
 
 .logo {
