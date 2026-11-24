@@ -76,6 +76,7 @@ nav {
 }
 
 nav a{
+    margin: 10px 30px;
     color: white;
     text-decoration: none;
     background-image: linear-gradient(rgb(219, 29, 4));
